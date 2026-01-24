@@ -1,4 +1,4 @@
-# ComfyUI-Claude-VAE-
+# ComfyUI-Claude-VAE
 This VAE DECODE  node solves VRAM problem  with mathematically precise temporal stitching that maintains perfect frame counts across any batch size.
 "The best code isn't written by one mind—it's refined by many."
 

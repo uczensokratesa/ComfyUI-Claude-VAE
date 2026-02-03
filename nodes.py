@@ -27,7 +27,7 @@ from comfy.model_management import throw_exception_if_processing_interrupted
 import gc
 
 
-class UniversalSmartVAEDecode:
+class ClaudeSmartVAEDecode:
     """
     Production-grade universal VAE decoder with GUARANTEED audio sync.
     
@@ -392,9 +392,9 @@ class UniversalSmartVAEDecode:
 
 # ======== COMFYUI REGISTRATION ========
 NODE_CLASS_MAPPINGS = {
-    "UniversalSmartVAEDecode": UniversalSmartVAEDecode,
+    "ClaudeSmartVAEDecode": ClaudeSmartVAEDecode,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "UniversalSmartVAEDecode": "🎬 Universal VAE Decode (Audio Sync v2.3)",
+    "ClaudeSmartVAEDecode": "🎬 ClaudeSmartVAEDecode (Audio Sync v2.3)",
 }
